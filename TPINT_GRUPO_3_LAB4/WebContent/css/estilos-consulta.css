@@ -1,0 +1,55 @@
+@charset "ISO-8859-1";
+
+
+table{border-collapse:collapse;}
+th,tr,td{
+	border:1px solid #000;
+	width:150px;
+	height:45px;
+	vertical-align:middle;
+	text-align:center;
+}
+th{
+	color:#fff;
+	background-color: green;
+}
+
+tr:nth-child(odd) td,tr{
+	background-color:#eee;
+}
+
+
+#tablita{
+	/*margin-left:500px;
+	margin-top:6%;*/
+	
+	position: absolute;
+	top:28%;
+	left:350px;
+}
+
+#tablita2{
+	position: absolute;
+	top:68%;
+	left:500px;
+}
+
+
+
+
+#filtros{
+	position:absolute;
+	/*margin-left:44%;*/
+	left:44%;
+}
+#filtros2{
+	position:absolute;
+	/*margin-left:44%;*/
+	left:54%;
+}
+
+.textbox{
+	width:100px;
+	height:25px;
+}
+

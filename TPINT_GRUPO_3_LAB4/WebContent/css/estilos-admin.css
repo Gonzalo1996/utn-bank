@@ -1,0 +1,102 @@
+.ul-master {
+  list-style: none;
+  width: 15%;
+  background-color: #FFA500;
+  margin: 0;
+  padding: 0;
+  height:100%;
+  position:fixed;
+}
+
+li a {
+  text-decoration:none;
+  color: white;
+  background-color:#FF8C00;
+  font-size:18px;
+  display: block;
+  padding: 6px 15px;
+  border-bottom: 1px solid black;
+}
+
+ul li a:active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+li a:hover{
+  background-color: #555;
+  color: white;
+}
+
+body{
+	margin:0;
+	min-height: 100vh;
+	background-image: url(imagenes/Imagen-Fondo-Admin-3.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+}
+
+.container{
+	font-size: 10px;
+	text-align: center;
+	font-family: fantasy;
+}
+
+.div-tarjeta{
+	
+	position: absolute;
+	width: 50%;
+	height: 40%;
+	top: 30%;
+	left: 35%;
+}
+
+.Ingreso {
+    background-color: #FAF0A5;
+    position: absolute;
+    height: 750px;
+    width: 550px;
+    top: 15%;
+	left: 45%;
+    padding-top: 15px;
+    padding-left: 15px;
+    border-radius: 30px;
+    border-style: double;
+    border-color: black;
+}
+
+.div-clientes{
+	position: absolute;
+	top: 35%;
+	left: 25%;
+}
+
+.form-cuentas{	
+	background-color: #FAF0A5;
+	border: 20px solid #FAF0A5;
+	position: absolute;
+	top: 25%;
+	left: 35%;
+	height: 450px;
+    width: 800px;
+}
+
+#tablita2{
+	margin:auto;
+	margin-left: 18%;
+	margin-top:8%;
+	
+	width:1500px;
+	height: 100%;
+	background-color: rgba(255,255,255,0.50);
+	
+}
+
+video{
+	width: 65%;
+	margin: auto;
+	margin-left: 25%;
+  	border-radius: 60px;
+}

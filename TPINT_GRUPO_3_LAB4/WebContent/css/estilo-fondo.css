@@ -1,0 +1,127 @@
+body{
+	margin:0;
+	min-height: 100vh;
+	background-image: url(imagenes/login_registrar2.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+}
+
+div#general{
+	margin:auto;
+	width:1200px;
+	height: 100%;
+	background-color: rgba(0,0,0,0.25);
+	border-radius: 15px;
+	text-align: center;
+}
+
+h1#titulo{
+ 	color: #000000;
+  	font-weight: normal;
+  	font-size: 40px;
+ 	font-family: times new roman;
+ 	font-weight: bold;
+ 		/*Borde*/
+ 		text-shadow: -3px -3px 3px #ffffff, 3px -3px 3px #ffffff, -3px 3px 3px #ffffff, 3px 3px 3px #ffffff;
+ 	
+ 	text-transform: uppercase;
+ 	text-align:center;
+}
+
+p#nombre{
+	color: #000000;
+  	font-weight: normal;
+  	font-size: 40px;
+ 	font-family: Arial;
+ 	font-weight: bold;
+ 		/*Borde*/
+ 		text-shadow: -3px -3px 3px #ffffff, 3px -3px 3px #ffffff, -3px 3px 3px #ffffff, 3px 3px 3px #ffffff;
+ 	
+ 	text-transform: uppercase;
+ 	text-align:left;
+}
+
+p#montoTotal{
+	color: #000000;
+  	font-weight: normal;
+  	font-size: 40px;
+ 	font-family: Arial;
+ 	font-weight: bold;
+ 		/*Borde*/
+ 		text-shadow: -3px -3px 3px #ffffff, 3px -3px 3px #ffffff, -3px 3px 3px #ffffff, 3px 3px 3px #ffffff;
+ 	
+ 	text-transform: uppercase;
+ 	text-align:left;
+}
+
+p#textoFinal{
+	color: #ffffff;
+	font-weight: normal;
+  	font-size: 40px;
+ 	font-family: Arial;
+ 	text-align:center;
+ 	font-style: italic;
+}
+
+.fondo{
+	border-collapse: collapse;
+  	width: 90%;
+  	background-color: rgba(255,255,0,0.40);
+  	border-radius: 15px;
+  	margin: 0 auto;
+    text-align: left;
+}
+
+th, td {
+  padding: 8px;
+  text-align: left;
+}
+
+/*tr:hover {background-color:#f5f5f5;}*/
+
+div#transferencia{
+	margin:auto;
+	width:1200px;
+	height: 100%;
+	background-color: rgba(0,0,0,0.25);
+	border-radius: 15px;
+	text-align: center;
+}
+
+.cajaTexto, select{
+	border-radius: 4px;
+	border-color: blue;
+	background-color: #def;
+	border: 1px solid #ccc;
+	display: inline-block;
+	box-sizing: border-box;
+}
+
+input[type=submit] {
+  background-color: #FFFB00;
+  padding: 8px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #EEEA02;
+}
+		/*Para darle un tono transparente y degradante*/
+/*body:before {
+	content: "";
+	width: 100%;
+	min-height: 100vh;
+	position: absolute;
+	top: 0;
+	left: 0;
+	
+	background: linear-gradient(90deg,#F3C706, #F3D906);
+	
+	opacity: 0.7;
+	z-index: -1;
+}*/

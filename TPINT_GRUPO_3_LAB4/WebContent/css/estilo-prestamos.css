@@ -1,0 +1,24 @@
+@charset "ISO-8859-1";
+
+
+#cuadroprestamo{
+	font-weight:bold;
+	width: 25%;
+	background: white;
+	color: black;
+/*	margin: auto;
+	margin-top: 150px;*/
+	position: absolute;
+	left:45%;
+	top:50%;
+	 line-height: 10px;
+	transform: translateX(-35%) translateY(-50%);
+	padding: 5px 5px 30px 5px;
+	border:black 5px solid;
+	/*border-right: 35px solid #141414;
+	border-left: 35px solid #141414;
+	border-bottom: 35px solid #141414;*/
+	
+	opacity:0.8;
+	border-radius:5px;
+}

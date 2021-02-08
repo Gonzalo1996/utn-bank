@@ -1,0 +1,105 @@
+@charset "ISO-8859-1";
+
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+body{
+	background-attachment:fixed;
+}
+
+.izquierda{
+	background: url(../imagenes/login_registrar2.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	width: 50%;
+	min-height: 100vh;
+}
+
+.derecha{
+	background: #f2e381;
+	width: 50%;
+	position: relative;
+	height: 100vh;
+}
+
+.logo-utn{
+	width: 300px; 
+	height: 50px;
+	position: absolute;
+	top:90px;
+	left:70px;
+}
+h2{
+	width:450px;
+	position: absolute;
+	top:100px;
+	left: 380px;
+}
+
+#pantalla-dividida{
+	display: flex;
+}
+
+
+#cuadro{
+
+	width: 50%;
+	background: #090909;
+	color: #ffffff;
+/*	margin: auto;
+	margin-top: 150px;*/
+	position: absolute;
+	left:50%;
+	top:50%;
+	transform: translateX(-35%) translateY(-50%);
+	/*padding: 5px 5px 30px 5px;*/
+	border: 35px solid #141414;
+	/*border-right: 35px solid #141414;
+	border-left: 35px solid #141414;
+	border-bottom: 35px solid #141414;*/
+	border-radius: 6px;
+	opacity:0.8;
+}
+
+.entrada{
+	width: 320px;
+	height: 35px;
+	text-align: center;
+	border-radius: 8px;
+	font-family: verdana;
+	font-weight: 900;
+	margin-left:80px;
+}
+
+#boton{
+	width: 324px;
+	height: 45px;
+	border-radius: 6px;
+	background: #f2e381;
+	color: #2a2a2a;
+	font-size: 20px;
+	margin-left:80px;
+}
+
+#titulo{
+	font-size: 30px;
+	font-family: fantasy;
+}
+
+
+#subtitulo1{
+	text-align: center;
+}
+
+#subtitulo2{
+	text-align: center;
+}
+
+#marca{
+	font-size: 20px;
+	text-align: right;
+	font-weight: 700;
+}
